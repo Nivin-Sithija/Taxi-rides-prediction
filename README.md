@@ -1,4 +1,4 @@
-##Taxi Rides Prediction in Colombo, Sri Lanka
+# Taxi Rides Prediction in Colombo, Sri Lanka
 
 <p align="center">
 	<img src="src/app_ui/UI.png" alt="Taxi Rides Prediction UI" width="650" />
