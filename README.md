@@ -1,8 +1,12 @@
-# Taxi Rides Prediction — Colombo, Sri Lanka
+##Taxi Rides Prediction in Colombo, Sri Lanka
+
+<p align="center">
+	<img src="src/app_ui/UI.png" alt="Taxi Rides Prediction UI" width="650" />
+</p>
 
 Hourly taxi ride demand forecasting for Colombo using a Kedro ML pipeline, CatBoost model, and an interactive Dash dashboard.
 
-Built to production-grade standards: reproducible Kedro pipelines, containerised three-service Docker stack (train → infer → UI), structured logging, and a live Dash dashboard — demonstrating how a real demand-forecasting system would be architected and deployed end-to-end.
+Built to production-grade standards: reproducible Kedro pipelines, containerised three-service Docker stack (train → infer → UI), structured logging, and a live Dash dashboard demonstrating how a real demand-forecasting system would be architected and deployed end-to-end.
 
 ---
 
