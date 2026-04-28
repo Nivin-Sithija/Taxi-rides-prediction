@@ -5,10 +5,13 @@ conf/**/*credentials*
 .telemetry
 .viz
 
-# Data (keep folder structure, ignore contents)
+# Data — ignore generated/intermediate files, keep raw inputs
 data/**
 !data/**/
 !.gitkeep
+# Raw input CSVs and schema are synthesised, small, and required at build time
+!data/01_raw/*.csv
+!data/01_raw/*.sql
 
 # Logs
 *.log
