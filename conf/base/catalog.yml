@@ -1,0 +1,20 @@
+# Here you can define all your datasets by using simple YAML syntax.
+#
+# Documentation for this file format can be found in "The Data Catalog"
+# Link: https://docs.kedro.org/en/stable/catalog-data/introduction/#data-catalog
+
+train_data:
+  type: kedro_datasets.pandas.CSVDataset
+  filepath: data/01_raw/colombo_taxi_rides.csv
+
+inference_data:
+  type: kedro_datasets.pandas.CSVDataset
+  filepath: data/01_raw/colombo_taxi_rides_inference.csv
+
+predictions_with_timestamps:
+  type: kedro_datasets.pandas.CSVDataset
+  filepath: data/07_model_output/predictions.csv
+
+inference_batch:
+  type: kedro_datasets.pandas.CSVDataset
+  filepath: data/03_primary/inference_batch.csv
