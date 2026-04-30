@@ -75,3 +75,23 @@ python entrypoints/training.py
 python entrypoints/inference.py
 python entrypoints/app_ui.py
 ```
+---
+
+## Citation
+
+If you use this project or the synthesized dataset in your research or build on this work, please cite:
+
+```bibtex
+@software{colombo_taxi_demand_2026,
+  author    = {Seneviratne, Sithija},
+  title     = {Taxi Ride Demand Prediction in Colombo, Sri Lanka},
+  year      = {2026},
+  url       = {https://github.com/Nivin-Sithija/Taxi-rides-prediction},
+  note      = {Synthetic dataset and production-grade ML pipeline using Kedro, CatBoost, and Dash}
+}
+```
+---
+
+## License
+
+MIT License — Copyright (c) 2026 Seneviratne, Sithija.
